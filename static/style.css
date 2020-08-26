@@ -1,0 +1,115 @@
+body {
+    background-image: url("background.png");
+    background-position: center;
+}
+.background {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.Title {
+    color: #c3b9b0;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    padding-top: 2%;
+}
+
+.Description {
+    color: #e7717d;
+    text-align: left;
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.Info {
+    color: #e7717d;
+    text-align: left;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 2%;
+}
+
+.Button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: #7e685a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.Button:hover {
+    background-color: #665348;
+    color: white;
+}
+
+.inputfile {
+    opacity: 0;
+}
+
+.inputfile + label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: #7e685a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.inputfile + label:hover {
+    background-color: #665348;
+}
+
+.Image:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.column {
+    float: left;
+    height: 300px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.PredictionList {
+    display: block;
+    color: #e7717d;
+    font-family: monospace;
+    font-size: 20px;
+    float: left;
+    margin-left: 15%;
+    margin-top:1%;
+}
+
+#selected-image {
+    float: right;
+    margin-right: 15%;
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 1%;
+}

@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Cats and Dogs Classification</title>
+</head>
+<script>
+
+</script>
+
+<body>
+    <div class="background">
+        <h1 class="Title">Cats and Dogs Breeds Classification Oxford Dataset</h1>
+
+        <p class="Description">Choose a picture of a cat or a dog then press PREDICT</p>
+
+        <div class="Input">
+            <input class="inputfile" id="image-selector" type="file">
+            <label for="image-selector">Choose an image</label>
+        </div>
+
+        <div class="Image">
+            <div class="column left"><img style="visibility:hidden" id="selected-image" src="" /></div>
+            <div class="column right" />
+            <div class="PredictionList" id="PredictionList" style="visibility:hidden">
+                <b>Result:</b>
+                <ol id="prediction-list"></ol>
+            </div>
+        </div>
+
+
+
+        <button style="visibility:hidden" class="Button" id="predict-button">PREDICT</button>
+
+
+        <p class="Info">Application has 37 species of cats and dogs</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="classes.js"></script>
+    <script src="predict.js"></script>
+</body>
+
+</html>
