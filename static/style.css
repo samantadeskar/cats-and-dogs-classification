@@ -1,15 +1,15 @@
 body {
-    background-image: url("background.png");
+    background-image: url("background.jpg");
     background-position: center;
 }
 .background {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.8);
     width: 100%;
     height: 100%;
     border-radius: 7px;
 }
 .Title {
-    color: #c3b9b0;
+    color: #998b7f;
     text-align: center;
     font-family: monospace;
     font-size: 50px;
@@ -17,7 +17,7 @@ body {
 }
 
 .Description {
-    color: #e7717d;
+    color: #831a16;
     text-align: left;
     font-family: monospace;
     font-size: 25px;
@@ -26,7 +26,7 @@ body {
 }
 
 .Info {
-    color: #e7717d;
+    color: #831a16;
     text-align: left;
     font-family: monospace;
     font-size: 20px;
@@ -97,7 +97,7 @@ body {
 
 .PredictionList {
     display: block;
-    color: #e7717d;
+    color: #831a16;
     font-family: monospace;
     font-size: 20px;
     float: left;
